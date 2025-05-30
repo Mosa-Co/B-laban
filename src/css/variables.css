@@ -1,0 +1,93 @@
+:root {
+  /* Base Colors - Customize these to change the restaurant branding */
+  --primary-color: #0066be;
+  --primary-light: #1086ec;
+  --primary-dark: #04549b;
+
+  --secondary-color: #01338c;
+  --secondary-light: #0c58db;
+  --secondary-dark: #032b70;
+
+  --accent-color: #04549b;
+  --accent-light: #04549b;
+  --accent-dark: #04549b;
+
+  --success-color: #2ecc71;
+  --warning-color: #f1c40f;
+  --error-color: #e74c3c;
+
+  /* Light Mode */
+  --bg-color: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-color: #333333;
+  --text-light: #666666;
+  --heading-color: #222222;
+  --border-color: #e5e5e5;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* Header */
+  --header-bg: rgba(0, 0, 0, 0.7);
+  --header-text: #ffffff;
+  --header-height: 500px;
+
+  /* Navigation */
+  --nav-bg: #ffffff;
+  --nav-text: #333333;
+  --nav-active: var(--primary-color);
+  --nav-height: 70px;
+
+  /* Footer */
+  --footer-bg: #222222;
+  --footer-text: #f8f9fa;
+
+  /* Spacing - Using 8px grid system */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Typography */
+  --base-font-size: 1rem;
+  --h1-size: 3rem;
+  --h2-size: 2.5rem;
+  --h3-size: 2rem;
+  --h4-size: 1.5rem;
+  --h5-size: 1.25rem;
+  --h6-size: 1rem;
+
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --border-radius-round: 50%;
+
+  /* Animation */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Dark Mode Variables */
+body.dark {
+  --bg-color: #121212;
+  --bg-secondary: #1e1e1e;
+  --card-bg: #1e1e1e;
+  --text-color: #e5e5e5;
+  --text-light: #b0b0b0;
+  --heading-color: #ffffff;
+  --border-color: #333333;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+
+  --nav-bg: #121212;
+  --nav-text: #e5e5e5;
+}
+
+/* RTL Support */
+html[dir="rtl"] {
+  /* You can add RTL-specific variables here if needed */
+}
